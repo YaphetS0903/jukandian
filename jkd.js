@@ -34,7 +34,7 @@ const DATE = `${new Date().getUTCFullYear()}${(new Date().getUTCMonth() + 1).toS
 let liveBody = null, fakeIOS = true
 const $ = new Env("聚看点")
 let sum = 0
-let cookiesArr = ['JSESSIONID=26A591BA6219C38680278CB46E508B4B; SERVERID=18d4c625632a6d18d7fffb33bff74b74|1614743531|1614743490; CNZZDATA1274871401=1832868207-1611905109-https%253A%252F%252Fwww.xiaodouzhuan.cn%252F%7C1613989638; CNZZDATA1275507390=1035595115-1611904093-%7C1613989649; UM_distinctid=1774d189336a97-0ec072ec6b9f408-754c1451-4a640-1774d18933749a'
+let cookiesArr = [
   // '', // xz_jkd_appkey=xxx; JSESSIONID=xxx; UM_distinctid=xxx; （账号1ck）
   // '', // xz_jkd_appkey=xxx; JSESSIONID=xxx; UM_distinctid=xxx; （账号2ck）
 ], cookie = '', message;
