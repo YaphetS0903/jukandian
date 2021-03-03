@@ -27,9 +27,8 @@ jobs:
               run: |
                   node jkd.js
               env:
-                  BBBURL: ${{ secrets.BBBURL }}
-                  BBBHEADER: ${{ secrets.BBBHEADER }}
-                  BBBBODY: ${{ secrets.BBBBODY }}
+                  JKD_COOKIE: ${{ secrets.JKD_COOKIE }}
+                  JKD_USER_AGENT: ${{ secrets.JKD_USER_AGENT }}
                   SCKEY: ${{ secrets.SCKEY }}
                   BARK_PUSH: ${{ secrets.BARK_PUSH }}
                   PUSH_KEY: ${{ secrets.PUSH_KEY }}
