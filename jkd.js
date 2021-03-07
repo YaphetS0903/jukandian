@@ -34,7 +34,7 @@ const DATE = `${new Date().getUTCFullYear()}${(new Date().getUTCMonth() + 1).toS
 let liveBody = null, fakeIOS = true
 const $ = new Env("聚看点")
 let sum = 0
-let cookiesArr = [
+let cookiesArr = [ 'xz_jkd_appkey=a9dca6b31a4d4e6abd981a22865e59bf!iOS!60.0.6; JSESSIONID=891DF75D31994B5BDF12DD60DB1355C3; UM_distinctid=176bda22fef0-04b2fbec8843888-724c1451-4a574-176bda22ff1138;'
   // '', // xz_jkd_appkey=xxx; JSESSIONID=xxx; UM_distinctid=xxx; （账号1ck）
   // '', // xz_jkd_appkey=xxx; JSESSIONID=xxx; UM_distinctid=xxx; （账号2ck）
 ], cookie = '', message;
