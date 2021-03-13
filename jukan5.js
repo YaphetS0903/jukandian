@@ -13,7 +13,7 @@ hostname = www.xiaodouzhuan.cn
 const $ = new Env('聚看点')
 const drawcash = $.getdata('jukan_cash') || "30" //提现金额
 const wxname = $.getdata('jukan_name') || ""//微信真实名字，可以在双引号内填入
-let CookieArr=[],BodyArr=[];
+let CookieArr=[],BodyArr=['jsondata=%7B%20%20%22openid%22%20%3A%20%2273f2aa7484b4427f97525e3b549f3448%22%2C%20%20%22os%22%20%3A%20%22iOS%22%2C%20%20%22psign%22%20%3A%20%220cf94b87f584dfc81a87fa74dcb3757f%22%2C%20%20%22channel%22%20%3A%20%22IOS-qianzhuan%22%2C%20%20%22appversioncode%22%20%3A%20%226006%22%2C%20%20%22time%22%20%3A%20%221615630720%22%2C%20%20%22apptoken%22%20%3A%20%22xzwltoken070704%22%2C%20%20%22appid%22%20%3A%20%22xzwl%22%2C%20%20%22appversion%22%20%3A%20%2260.0.6%22%7D'];
 let bodys = $.getdata('jukan_body')
 let signtimes = $.getdata('jukan_times')
 let cashout = $.getdata('jukan_out')|| false
