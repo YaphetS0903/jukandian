@@ -34,7 +34,8 @@ const DATE = `${new Date().getUTCFullYear()}${(new Date().getUTCMonth() + 1).toS
 let liveBody = null, fakeIOS = true
 const $ = new Env("聚看点")
 let sum = 0
-let cookiesArr = [ 'xz_jkd_appkey=a9dca6b31a4d4e6abd981a22865e59bf!iOS!60.0.6; JSESSIONID=891DF75D31994B5BDF12DD60DB1355C3; SERVERID=e2e52ee42199401ef190e9b9166db76a|1615108455|1615108454;']                  
+let cookiesArr = [ 'xz_jkd_appkey=a9dca6b31a4d4e6abd981a22865e59bf!iOS!60.0.6; JSESSIONID=891DF75D31994B5BDF12DD60DB1355C3; SERVERID=e2e52ee42199401ef190e9b9166db76a|1615108455|1615108454;'
+'JSESSIONID=760330DEF4FDC0850F383EEEA68159FA; SERVERID=4b3bae870580896bded23ba1131db97c|1609682075|1609682071; xz_jkd_appkey=33efcb5b900f4412b69b3724beb13ff8!iOS!5.6.5']                  
 // '', // xz_jkd_appkey=xxx; JSESSIONID=xxx; UM_distinctid=xxx; （账号1ck）
 // '', // xz_jkd_appkey=xxx; JSESSIONID=xxx; UM_distinctid=xxx; （账号2ck）
 ], cookie = '', message;
